@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    src: local(/Users/c4to/Library/Fonts)
+}
+
+body {
+    margin: 0;
+    background-color: #1B244A;
+    width: 100%;
+}
+
+button {
+    border: 2px solid #9AABD8;
+    border-radius: 5px; 
+    background-color: transparent;
+    padding: 10px;
+    font-family: 'Cursed Timer ULiL';
+    color: #9AABD8
+}
+
+p {
+    font-family: Cursed Timer ULiL;
+    font-style: normal;
+    font-size: 90px;
+    line-height: 127px;
+    background: black;
+    color: #F94F6D;
+    border-radius: 5px;
+    margin: -21px 0 26px -5px; 
+}  
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+
+.home-children {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#home-title {
+    color: #EEEEEE;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-size: 40px;
+    line-height: 36px;
+    width: 149px;
+     margin-top: 68px;
+}
+
+#home-score{
+   padding-left: 25px; 
+}
+
+#home-btn {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.guest-children {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#guest-title {
+    color: #EEEEEE;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-size: 40px;
+    line-height: 36px;
+    width: 149px;
+    margin-top: 68px;
+}
+
+#guest-score {
+    padding-left: 25px;
+}
+
+#guest-btn {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
